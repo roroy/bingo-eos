@@ -1,0 +1,49 @@
+.bingo-body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.bingo-cell {
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 130px;
+  max-height: 130px;
+  width: 130px;
+  max-width: 130px;
+  padding: 15px;
+  border: 1px solid;
+  vertical-align: middle;
+  text-align: center;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  color: #333;
+  transition: .3s all;
+  border-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.bingo-cell-active {
+  background: url('logo.svg') no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.25);
+  color: #939393;
+  transition: .3s all;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.inner {
+  width: 665px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.bingo-title {
+  text-align: center;
+}
